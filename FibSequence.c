@@ -7,7 +7,6 @@ int main(){
     scanf("%d", &n);
     FibSeq(n);
 }
-
 void FibSeq(int n){
     int a,b,c;
     FibSeq()

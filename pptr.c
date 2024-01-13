@@ -5,6 +5,6 @@ int main(){
     int *ptr = &i;
     int **pptr = &ptr;
     
-    printf("%d", **pptr);
+    printf("%u", &pptr);
     return 0;
 }

@@ -10,13 +10,14 @@ int main(){
     printf("After Swapping : %d and %d \n", a, b);
     return 0;
 }
+//Call by Value
 //int Swap(int a, int b){
   //  int c= a;
     //a=b;
     //b=c;
     //printf("After Swapping : %d and %d \n",a,b);
 
-
+//Call by Reference
 int _Swap(int *a, int *b){
     int c=*a;
     *a=*b;
